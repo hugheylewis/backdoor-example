@@ -9,7 +9,7 @@ server.bind((HOST, PORT))
 print('--- Server Started ---')
 print('Server listening for client connection...')
 server.listen(1)
-# Above, this allows the server to accept connections.
+# Above, this allows the server to accept connections
 # 1 means the number of connections the server can queue before rejecting them
 
 client, client_address = server.accept()
